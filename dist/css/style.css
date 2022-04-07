@@ -285,6 +285,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin: 8.5rem auto 0 auto;
+  position: relative;
 }
 
 .sharing_info {
@@ -300,7 +301,6 @@ body {
 }
 
 .sharing_advantages {
-  position: relative;
   min-width: 34.375rem;
   max-height: 34.375rem;
 }
@@ -315,17 +315,20 @@ body {
 
 .sharing_advantages_1 {
   position: absolute;
+  bottom: 66%;
+  left: 52%;
 }
 
 .sharing_advantages_2 {
   position: absolute;
-  top: 27%;
-  left: 58%;
+  top: 21.2%;
+  right: 0%;
 }
 
 .sharing_advantages_3 {
   position: absolute;
-  top: 51%;
+  top: 55%;
+  left: 52%;
 }
 
 .connect {

@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 8.5rem auto 0 auto;//136px auto 0 auto
+    position: relative;
     &_info {
         padding-bottom: 6.25rem;//100px
         &_title {
@@ -14,7 +15,6 @@
         }
     }
     &_advantages {
-        position: relative;
         min-width: 34.375rem;//550px
         max-height: 34.375rem;//550px
         &_title {
@@ -25,15 +25,18 @@
         }
         &_1 {
             position: absolute;
+            bottom: 66%;
+            left: 52%;
         }
         &_2 {
             position: absolute;
-            top: 27%;
-            left: 58%;
+            top: 21.2%;
+            right: 0%;
         }
         &_3 {
             position: absolute;
-            top: 51%;
+            top: 55%;
+            left: 52%;
         }
     }
 }
