@@ -1,0 +1,35 @@
+.header {
+    max-width: 71.25rem; //1140px
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_icon {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 1.25rem; //20px
+        color: $red;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &_btn {
+        width: 5.875rem; //94px
+        height: 2.875rem; //46px
+        border-radius: 23px;
+        background-color: $red;
+        border: none;
+        a {
+            font-family: 'Roboto';
+            font-weight: 700;
+            font-size: 0.875rem; //14px
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

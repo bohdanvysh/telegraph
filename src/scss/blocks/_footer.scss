@@ -1,0 +1,21 @@
+.footer {
+    max-width: 71.25rem;//1140px
+    margin-top: 5rem;//80px
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &_social {
+        min-width: 17.063rem;//273px
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &_link {
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

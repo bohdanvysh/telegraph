@@ -1,0 +1,20 @@
+.title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: $blue;
+    &__main {
+        font-size: 3.75rem; //60px
+    }
+    &__second {
+        font-size: 2.188rem; //35px
+        &_white {
+            color: #fff;
+        }
+    }
+    &__third {
+        font-size: 1.375rem; //22px
+    }
+    &__forth {
+        font-size: 1.125rem; //18px
+    }
+}

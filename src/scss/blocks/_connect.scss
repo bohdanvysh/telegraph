@@ -1,0 +1,37 @@
+.connect {
+    width: 72.313rem;//1157px
+    min-height: 39.688rem;//635px
+    margin-left: 14.375rem;//230px
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    &_img {
+        &_first-bg {
+            position: absolute;
+            bottom: 58%;
+            left: 29.8%;
+            z-index: 1;
+        }
+        &_second-bg {
+            position: absolute;
+            bottom: 8.4%;
+            left: 10%;
+            z-index: 2;
+            border-radius: 10px;
+        }
+        &_third-bg {
+            position: absolute;
+            top: 41.5%;
+            left: 19.3%;
+            z-index: 3;
+        }
+    }
+    &_info {
+        padding-top: 3.75rem;//60px
+        &_text {
+            margin-top: 1.875rem;//30px
+            line-height: 28px;
+        }
+    }
+}

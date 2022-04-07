@@ -1,0 +1,32 @@
+.devices {
+    max-width: 71.25rem;//1140px
+    margin-bottom: 6.875rem;//110px
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    &_block {
+        &_icon {
+            margin-bottom: 1.75rem;//28px
+            &_2 {
+                margin-left: 1.063rem;//17px
+            }
+        }
+        &_text {
+            margin-bottom: 1.313rem;//21px
+            &_opacity {
+                opacity: 0.8;
+            }
+        }
+        &_beta {
+            display: flex;
+            justify-content: space-between;
+            &_link {
+                opacity: 0.5;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

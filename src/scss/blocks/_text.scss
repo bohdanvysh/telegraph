@@ -1,0 +1,26 @@
+.text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: $blue;
+    &__s {
+        font-size: 0.875rem; //14px
+    }
+    &__n {
+        font-size: 1rem; //16px
+        &_w-m {
+            font-weight: 400;
+        }
+        &_white {
+            color: #fff;
+        }
+    }
+    &__m {
+        font-size: 1.125rem; //18px
+        &_white {
+            color: #fff;
+        }
+        &_w-r {
+            font-weight: 500;
+        }
+    }
+}

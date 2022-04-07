@@ -1,0 +1,40 @@
+.message {
+    max-width: 72.313rem;//1157px
+    min-height: 39.688rem;//635px
+    margin-left: 14.375rem;//230px
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    &_img {
+        &_first-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        &_second-bg {
+            position: absolute;
+            z-index: 2;
+            top: 10%;
+            left: 10%;
+            border-radius: 10px;
+        }
+        &_third-bg {
+            position: absolute;
+            z-index: 3;
+            top: 50%;
+            left: 18.8%;
+        }
+    }
+    &_text {
+        padding-bottom: 3.125rem;//50px
+        &_title {
+            line-height: 50px;
+        }
+        &_descr {
+            margin-top: 1.875rem;//30px
+            line-height: 28px;
+        }
+    }
+}

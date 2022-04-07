@@ -1,0 +1,39 @@
+.sharing {
+    max-width: 70.5rem;//1128px
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8.5rem auto 0 auto;//136px auto 0 auto
+    &_info {
+        padding-bottom: 6.25rem;//100px
+        &_title {
+            line-height: 50px;
+        }
+        &_text {
+            line-height: 28px;
+        }
+    }
+    &_advantages {
+        position: relative;
+        min-width: 34.375rem;//550px
+        max-height: 34.375rem;//550px
+        &_title {
+            margin-top: 1.625rem;//26px
+        }
+        &_text {
+            line-height: 23px;
+        }
+        &_1 {
+            position: absolute;
+        }
+        &_2 {
+            position: absolute;
+            top: 27%;
+            left: 58%;
+        }
+        &_3 {
+            position: absolute;
+            top: 51%;
+        }
+    }
+}
